@@ -1,0 +1,13 @@
+[package]
+name = "rust-opendal-fs-read"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3"
+# The `0.45` is the semver version of opendal.
+#
+# We use `0.45` to indicate all versions that `>=0.45.0 && <0.46.0`.
+opendal = "0.45"
